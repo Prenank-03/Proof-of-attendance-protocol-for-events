@@ -1,0 +1,16 @@
+[package]
+name = "Proofofattendanceprotocolforevents"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Proofofattendanceprotocolforevents = '0xec785bf41aa31e666e07a342f5b9e81093012b43fc5ea3d9dd619513a59fe0df'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
